@@ -1,0 +1,15 @@
+write a blog on difference between HTTP 1.1 and HTTP 2
+
+HTTP 1.1
+==>first usable version of HTTP was created in 1997.First version is 1.1 and this version is still in use on web.
+==>It is slow.
+==>MULTIPLEXING:It loads resourses,one after other, so if one resourse cannot be loaded,it blocks all other resources behindit.
+==>SERVER PUSH:A server only serves content to a client device,if the client asks for it.
+==>HEADER COMPRESSION:small files load more quickly than large one.
+
+HTTP 2
+==>In 2015,a new version HTTP2 was created.
+==>It is much faster and more efficient than HTTP1.1
+==>MULTIPLEXING:It is able to use a single TCP connection to send multiple streams of data at once,no other resources blocks any other resources.
+==>SERVER PUSH:In HTTP2 solves a HTTP1.1 problem,by a server to "PUSH" content to a client device before client ask for it.
+==> HEADER COMPRESSION: In this,uses a more advanced compression method called HPACK. This method resulting in faster loading.

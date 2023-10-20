@@ -1,0 +1,6 @@
+write a blog about objects and its internal representation in java script
+
+==>In javascript, object is defined as an unordered collection of related data or properties.
+==>A properties is associated between name and a value,properties is also called as methods.
+
+==>for Example:If our object is a "patient",it will have the properties like,name,age,address,id,bloodgroup etc and methods like update address,name etc.
